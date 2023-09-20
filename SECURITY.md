@@ -22,4 +22,5 @@ declined, etc.
 [![PSScriptAnalyzer](https://github.com/gilbertalgordo/make/actions/workflows/powershell.yml/badge.svg?branch=master)](https://github.com/gilbertalgordo/make/actions/workflows/powershell.yml)
 [![CodeQL](https://github.com/gilbertalgordo/make/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/gilbertalgordo/make/actions/workflows/github-code-scanning/codeql)
 [![MakeCode Arcade Release](https://github.com/gilbertalgordo/make/actions/workflows/makecode-release.yml/badge.svg)](https://github.com/gilbertalgordo/make/actions/workflows/makecode-release.yml)
+[![pages-build-deployment](https://github.com/gilbertalgordo/make/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/gilbertalgordo/make/actions/workflows/pages/pages-build-deployment)
 https://gist.github.com/gilbertalgordo
