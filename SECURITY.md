@@ -23,4 +23,5 @@ declined, etc.
 [![CodeQL](https://github.com/gilbertalgordo/make/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/gilbertalgordo/make/actions/workflows/github-code-scanning/codeql)
 [![MakeCode Arcade Release](https://github.com/gilbertalgordo/make/actions/workflows/makecode-release.yml/badge.svg)](https://github.com/gilbertalgordo/make/actions/workflows/makecode-release.yml)
 [![pages-build-deployment](https://github.com/gilbertalgordo/make/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/gilbertalgordo/make/actions/workflows/pages/pages-build-deployment)
+[![Microsoft Defender For Devops](https://github.com/gilbertalgordo/make/actions/workflows/defender-for-devops.yml/badge.svg)](https://github.com/gilbertalgordo/make/actions/workflows/defender-for-devops.yml)
 https://gist.github.com/gilbertalgordo
