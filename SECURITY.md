@@ -20,4 +20,5 @@ Tell them where to go, how often they can expect to get an update on a
 reported vulnerability, what to expect if the vulnerability is accepted or
 declined, etc.
 [![PSScriptAnalyzer](https://github.com/gilbertalgordo/make/actions/workflows/powershell.yml/badge.svg?branch=master)](https://github.com/gilbertalgordo/make/actions/workflows/powershell.yml)
+[![CodeQL](https://github.com/gilbertalgordo/make/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/gilbertalgordo/make/actions/workflows/github-code-scanning/codeql)
 https://gist.github.com/gilbertalgordo
