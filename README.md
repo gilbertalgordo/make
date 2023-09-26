@@ -29,3 +29,4 @@ This image may take a few minutes to refresh.
 
 * for PXT/arcade
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+https://arcade.makecode.com/S25074-55969-58390-18840
