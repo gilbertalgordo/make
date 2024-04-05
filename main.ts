@@ -1,7 +1,4 @@
-controller.player2.onButtonEvent(ControllerButton.A, ControllerButtonEvent.Pressed, function () {
-    controller.player2.moveSprite(null)
-})
-controller.player2.onEvent(ControllerEvent.Connected, function () {
+controller.player4.onEvent(ControllerEvent.Connected, function () {
     scene.setBackgroundImage(img`
         ................................................................................................................................................................
         ................................................................................................................................................................
@@ -124,5 +121,8 @@ controller.player2.onEvent(ControllerEvent.Connected, function () {
         ................................................................................................................................................................
         ................................................................................................................................................................
         `)
+})
+controller.player2.onButtonEvent(ControllerButton.A, ControllerButtonEvent.Pressed, function () {
+    controller.player2.moveSprite(null)
 })
 null.setVelocity(50, 50)
