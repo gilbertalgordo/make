@@ -1,5 +1,5 @@
 controller.player2.onButtonEvent(ControllerButton.A, ControllerButtonEvent.Pressed, function () {
-    controller.player2.moveSprite(mySprite)
+    controller.player2.moveSprite(null)
 })
 controller.player2.onEvent(ControllerEvent.Connected, function () {
     scene.setBackgroundImage(img`
@@ -125,5 +125,4 @@ controller.player2.onEvent(ControllerEvent.Connected, function () {
         ................................................................................................................................................................
         `)
 })
-let mySprite: Sprite = null
-mySprite.setVelocity(50, 50)
+null.setVelocity(50, 50)
