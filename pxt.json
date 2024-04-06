@@ -10,7 +10,9 @@
         "README.md",
         "main.blocks",
         "main.ts",
-        "main.py"
+        "main.py",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
