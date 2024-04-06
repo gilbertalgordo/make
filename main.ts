@@ -1,4 +1,3 @@
-let myDart = 0
 controller.player4.onEvent(ControllerEvent.Connected, function () {
     scene.setBackgroundImage(img`
         ................................................................................................................................................................
@@ -123,29 +122,11 @@ controller.player4.onEvent(ControllerEvent.Connected, function () {
         ................................................................................................................................................................
         `)
 })
-controller.player2.onButtonEvent(ControllerButton.A, ControllerButtonEvent.Pressed, function () {
-    controller.player2.moveSprite(null)
-})
 controller.player4.onButtonEvent(ControllerButton.A, ControllerButtonEvent.Pressed, function () {
-    myDart = info.highScore()
-    for (let index = 0; index <= 4; index++) {
-    	
-    }
-    if (true) {
-        myDart += controller.player2.dy()
-        myDart = controller.player2.dx()
-    } else {
-        for (let index = 0; index <= controller.dy(); index++) {
-            if (controller.player2.isPressed(ControllerButton.A)) {
-            	
-            } else {
-            	
-            }
-        }
-    }
+    music.play(music.createSoundEffect(WaveShape.Sine, 5000, 0, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), music.PlaybackMode.UntilDone)
 })
 forever(function () {
-    music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("- - - - - - - - ", controller.dx()), music.PlaybackMode.UntilDone)
     controller.moveSprite(darts.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
@@ -163,7 +144,7 @@ forever(function () {
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
-        `, SpriteKind.Player))
+        `, controller.player2.dx()))
     scene.setBackgroundImage(img`
         ................................................................................................................................................................
         ................................................................................................................................................................
