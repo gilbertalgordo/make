@@ -1,3 +1,4 @@
+
 controller.player4.onEvent(ControllerEvent.Connected, function on_player4_connected() {
     scene.setBackgroundImage(img`
         ................................................................................................................................................................
