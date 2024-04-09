@@ -4,7 +4,8 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "darts": "*"
+        "darts": "*",
+        "sevenseg": "*"
     },
     "files": [
         "README.md",
